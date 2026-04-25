@@ -20,6 +20,7 @@ export default function Page() {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [form, setForm] = useState({
     game: "",
+    winner: "",
     name: "",
     kills: "",
     deaths: "",
