@@ -1,5 +1,11 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  "https://xlsvgpmnjxgxypqlskut.supabase.co",
+  "sb_publishable_3iE4sr_g5X8CLz3KBXYccw_tYGH_ioa"
+);
 
 type Entry = {
   id: number;
