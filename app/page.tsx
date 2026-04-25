@@ -66,6 +66,7 @@ export default function Page() {
     setEntries([newEntry, ...entries]);
 
     setForm({
+      game: "",
       name: "",
       kills: "",
       deaths: "",
