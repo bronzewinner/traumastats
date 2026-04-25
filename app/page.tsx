@@ -19,6 +19,7 @@ type Entry = {
 export default function Page() {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [form, setForm] = useState({
+    game: "",
     name: "",
     kills: "",
     deaths: "",
